@@ -1,5 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import ReactDom from 'react-dom'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+function Greeting(){
+  return <h4>This is the first component</h4>
+}
+
+ReactDom.render(<Greeting/>, document.getElementById('root'));
