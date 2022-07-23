@@ -28,7 +28,7 @@ function BookList(){
     <Book/>
     <Book/>
     </section>
-  );
+  ); 
 }
 
 const Book = ({title, author, publisher, job, children}) => {
